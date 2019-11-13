@@ -24,3 +24,20 @@ storiesOf('Table', module)
       items
     })
   }))
+  .add('with 7 items + header', () => ({
+    components: { JTable },
+    template:
+    `
+      <JTable
+        :header="header"
+        :items="items"
+      />
+    `,
+    data: () => ({
+      header: [
+        'Name',
+        'Email'
+      ],
+      items
+    })
+  }))
