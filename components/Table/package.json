@@ -1,0 +1,10 @@
+{
+  "name": "@vcpablo/table",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@vcpablo/table-row": "^0.2.0"
+  }
+}
